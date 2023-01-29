@@ -1,0 +1,37 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+  padding: 10px;
+  box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
+    1px 4px 6px rgb(0 0 0 / 16%);
+  border-radius: 5px;
+}
+
+.isOnline {
+  background-color: green;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  z-index: 2;
+}
+
+.isOffline {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  z-index: 2;
+}
+
+.avatar {
+  margin-left: 10px;
+}
+
+.name {
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 600;
+}
